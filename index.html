@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CLONE</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&family=Bruno+Ace+SC&family=Caveat&family=DynaPuff&family=Indie+Flower&family=Pangolin&family=Rubik+Puddles&family=Ysabeau:ital,wght@1,200&display=swap" rel="stylesheet"> -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="navbar">
+        <ul>
+            <li><img class="mainIcon" src="//music.youtube.com/img/on_platform_logo_dark.svg" alt="" class="mainIcon"></li>
+            <li><img class="icon" src="home.png" alt=""> <span class="iconText"> HOME</span>
+            </span>
+            </span>
+            </span></li>
+            <li><img class="icon" src="explore.png" alt=""> <span class="iconText"> EXPLORE</span>
+            </span>
+            </span>
+            </span></li>
+            <li><img class="icon" src="music library.png" alt=""> <span class="iconText"> LIBRARY</span>
+            </span>
+            </span>
+            </span></li>
+        </ul>
+        <ul>
+            <li><img class="icon" src="search.png" alt=""> <span class="iconText"> search</span>
+            </span>
+            </span>
+            </span></li>
+            <li><img class="icon" id="profile" src="profile.jpg" alt=""></li>
+        </ul>
+        <span id="hamburger" class="hamburger-icon material-symbols-outlined">
+          menu
+        </span>
+        <div id="side-bar">
+          <div class="menu-container">
+            <div class="user-badge">
+              <img class="icon-menu" id="profile-menu" src="profile.jpg" alt="">
+            </div>
+            <ul class="menu">
+              <li>Home</li>
+              <li>Explore</li>
+              <li>Library</li>
+              <li>Search</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Tanmay's Playlist</h1>
+        <div class="songContainer">
+            
+        </div>
+
+    </div>
+    <section id="player-full">
+        <button id="player-back" style="position: absolute; left: 0; top: 0;">Back</button>
+        
+        <div class="cover-image">
+          <img src="1.jpg" alt="" srcset="" />
+          <span class="song-name">Song name</span>
+          <span class="artist-name">Artist</span>
+          <span class="album-name">Album</span>
+        </div>
+    </section>
+
+    <div class="bottom">
+        <input type="range" min="0" value="0" max="100" id="myProgressBar">
+        <div class="controls">
+            <span class="material-symbols-outlined">  
+                skip_previous
+            </span>
+            <span class="material-symbols-outlined" id="masterPlay">
+                play_circle
+            </span>
+            <span class="material-symbols-outlined">
+                skip_next
+            </span>
+        </div>
+
+    </div>
+
+    
+
+    <template id="songItemTemplate">
+      <span class="songItem">
+        <img src="1.jpg" alt="" />
+        <span class="songName"></span>
+        <i id="duration">2:13</i>
+        <span class="songItemPlay material-symbols-outlined">
+          play_circle
+        </span>
+      </span>
+    </template>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

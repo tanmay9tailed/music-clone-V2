@@ -1,0 +1,66 @@
+[
+    {
+        "songTitle": "Obsessed",
+        "songDuration": 183,
+        "coverImage": "1.jpg",
+        "artist": "Riar Saab",
+        "album": "UNDEFINED",
+        "src": "https://docs.google.com/uc?export=open&id=1mkozHEBDVBwwGQj_vcEkuNavqX7uhtLT"
+    },
+    {
+        "songTitle": "True Stories",
+        "songDuration": 180,
+        "coverImage": "true-stories.jpg",
+        "artist": "AP Dhilon",
+        "album": "UNDEFINED",
+        "src": "true-stories.mp3"
+    },
+    {
+        "songTitle": "cheque",
+        "songDuration": 240,
+        "coverImage": "cheque.jpg",
+        "artist": "subh",
+        "album": "subh",
+        "src": "cheque.mp3"
+    },
+    {
+        "songTitle": "MI AMOR",
+        "songDuration": 270,
+        "coverImage": "mi-amor.jpg",
+        "artist": "-------",
+        "album": "------------",
+        "src": "mi-amor.mp3"
+    },
+    {
+        "songTitle": "safar",
+        "songDuration": 290,
+        "coverImage": "safar.jpeg",
+        "artist": "-------",
+        "album": "------------",
+        "src": "safar.mp3"
+    },
+    {
+        "songTitle": "Vellake",
+        "songDuration": 270,
+        "coverImage": "vellake.jpg",
+        "artist": "-------",
+        "album": "------------",
+        "src": "vellake.mp3"
+    },
+    {
+        "songTitle": "JANIYE",
+        "songDuration": 300,
+        "coverImage": "janiye.jpg",
+        "artist": "VISHAL",
+        "album": "chor nikal ke bhaga",
+        "src": "janiye.mp3"
+    },
+    {
+        "songTitle": "KINA CHIR",
+        "songDuration": 300,
+        "coverImage": "kina-chir.jpg",
+        "artist": "prophec",
+        "album": "PROPHEC",
+        "src": "kina-chir.mp3"
+    }
+]
